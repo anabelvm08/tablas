@@ -1,0 +1,72 @@
+body {
+    background-color: #efeee7;
+    font-family: "Georgia",Times New Roman,Times,serif;
+    color: #333333;
+    margin: 0;
+    margin-left: 100px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+header {
+
+   //background-color: #333333;	
+    background-image: url(../img/flower.jpg);
+    background-repeat: no-repeat
+    background-position: absolute;
+    top:100px;  
+}
+
+h1 {
+	color: black;
+	font-size: 35px;
+	text-align: center;
+    	padding: 35px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#main-bio, #bio-image, #contact-info {
+    float: left;
+}
+
+#bio-image {
+	width: 200px;
+    	margin-right: 20px;
+}
+
+#main-bio {
+	width: 70%;
+	line-height: 150%;
+	text-align: justify;
+}
+
+#contact-info {
+	width: 30%;
+	line-height: 150%;
+	text-align: center;
+}
+
+a {
+	color: #d21034;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
